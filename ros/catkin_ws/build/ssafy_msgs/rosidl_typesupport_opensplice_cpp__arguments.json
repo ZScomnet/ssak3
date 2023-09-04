@@ -1,15 +1,15 @@
 {
   "package_name": "ssafy_msgs",
-  "output_dir": "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_typesupport_opensplice_cpp/ssafy_msgs",
+  "output_dir": "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_typesupport_opensplice_cpp/ssafy_msgs",
   "template_dir": "C:/dev/ros2-windows/share/rosidl_typesupport_opensplice_cpp/resource",
   "idl_tuples": [
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/Num.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/EnviromentStatus.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/TurtlebotStatus.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/BBox.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/ObjectInfo.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/HandControl.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/CustomObjectInfo.idl"
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/Num.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/EnviromentStatus.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/TurtlebotStatus.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/BBox.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/ObjectInfo.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/HandControl.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs:msg/CustomObjectInfo.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:C:/dev/ros2-windows/share/std_msgs/msg/Bool.idl",
@@ -83,13 +83,13 @@
     "C:/dev/ros2-windows/share/rosidl_typesupport_opensplice_cpp/resource/msg__type_support.cpp.em",
     "C:/dev/ros2-windows/share/rosidl_typesupport_opensplice_cpp/resource/srv__rosidl_typesupport_opensplice_cpp.hpp.em",
     "C:/dev/ros2-windows/share/rosidl_typesupport_opensplice_cpp/resource/srv__type_support.cpp.em",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/Num.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/EnviromentStatus.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/TurtlebotStatus.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/BBox.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/ObjectInfo.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/HandControl.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/CustomObjectInfo.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/Num.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/EnviromentStatus.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/TurtlebotStatus.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/BBox.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/ObjectInfo.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/HandControl.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_adapter/ssafy_msgs/msg/CustomObjectInfo.idl",
     "C:/dev/ros2-windows/share/std_msgs/msg/Bool.idl",
     "C:/dev/ros2-windows/share/std_msgs/msg/Byte.idl",
     "C:/dev/ros2-windows/share/std_msgs/msg/ByteMultiArray.idl",
@@ -153,12 +153,12 @@
     "C:/dev/ros2-windows/share/geometry_msgs/msg/WrenchStamped.idl"
   ],
   "additional_files": [
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/Num_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/EnviromentStatus_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/TurtlebotStatus_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/BBox_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/ObjectInfo_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/HandControl_.idl",
-    "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/CustomObjectInfo_.idl"
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/Num_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/EnviromentStatus_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/TurtlebotStatus_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/BBox_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/ObjectInfo_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/HandControl_.idl",
+    "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/rosidl_generator_dds_idl/ssafy_msgs/msg/dds_opensplice/CustomObjectInfo_.idl"
   ]
 }

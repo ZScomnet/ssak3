@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/build/ssafy_msgs/ssafy_msgs__py
+# Install script for directory: C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/build/ssafy_msgs/ssafy_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/SSAFY/Desktop/tt/catkin_ws/catkin_ws/install/ssafy_msgs")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/SSAFY/Desktop/project/S09P22B201/ros/catkin_ws/install/ssafy_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
