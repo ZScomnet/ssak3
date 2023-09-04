@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E2107668-7AEF-3992-8847-F334F643B716}</ProjectGuid>
+    <ProjectGuid>{011B49D4-FD13-35AA-9466-CA94866A9CEF}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -157,7 +157,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\CMakeFiles\6e2166e4e0efadd7313589038c03640d\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\CMakeFiles\571c2c5ceada6d7797ead43ee4dc617d\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -169,7 +169,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -183,7 +183,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
@@ -197,7 +197,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
@@ -211,20 +211,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ssafy_msgs__py\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ZERO_CHECK.vcxproj">
-      <Project>{D0BE9F40-21CD-3913-B355-8313DB435247}</Project>
+    <ProjectReference Include="C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ZERO_CHECK.vcxproj">
+      <Project>{6C4E1BE5-5CCC-350D-A545-EB7F36E54F83}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\SSAFY\Desktop\tt\catkin_ws\catkin_ws\build\ssafy_msgs\ALL_BUILD.vcxproj">
-      <Project>{DC7A7105-0DB2-3986-8D5F-DD05BBC93CF3}</Project>
+    <ProjectReference Include="C:\Users\SSAFY\Desktop\project\S09P22B201\ros\catkin_ws\build\ssafy_msgs\ALL_BUILD.vcxproj">
+      <Project>{113489BE-6945-3329-9B85-9ADACF92AC23}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
