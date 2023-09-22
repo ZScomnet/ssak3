@@ -45,6 +45,70 @@ def signUp(id: str, name: str, password: str, db: Session = Depends(get_db)):
 
 
 @router.post("/log-in", status_code=status.HTTP_200_OK)
+# def logIn(id: str, password: str, db: Session = Depends(get_db)):
+def logIn(
+        form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordRequestForm),
+        db: Session = Depends(get_db)
+):
+    exist_user = db.query(auth).filter(auth.id == form_data.username).first()
+    if not (exist_user):
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="사용자를 찾을 수 없습니다.")
+
+    if not (pw_context.verify(form_data.password, exist_user.password)):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="비밀번호를 잘못 입력하셨습니다.")
+
+    atk_time = datetime.utcnow() + timedelta(minutes=int(ACCESS_TOKEN_TIME))
+    rtk_time = datetime.utcnow() + timedelta(minutes=int(REFRESH_TOKEN_TIME))
+
+    atk_data = {
+        "sub": form_data.username,
+        "exp": atk_time
+    }
+    access_token = jwt.encode(atk_data, SECRET_KEY, ALGORITHM)
+
+    rtk_data = {
+        "sub": form_data.username,
+        "exp": rtk_time
+    }
+    refresh_token = jwt.encode(rtk_data, SECRET_KEY, ALGORITHM)
+
+    return {"accessToken": access_token, "refreshToken": refresh_token}
+
+
+
+@router.post("/log-in", status_code=status.HTTP_200_OK)
+# def logIn(id: str, password: str, db: Session = Depends(get_db)):
+def logIn(
+        form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordRequestForm),
+        db: Session = Depends(get_db)
+):
+    exist_user = db.query(auth).filter(auth.id == form_data.username).first()
+    if not (exist_user):
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="사용자를 찾을 수 없습니다.")
+
+    if not (pw_context.verify(form_data.password, exist_user.password)):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="비밀번호를 잘못 입력하셨습니다.")
+
+    atk_time = datetime.utcnow() + timedelta(minutes=int(ACCESS_TOKEN_TIME))
+    rtk_time = datetime.utcnow() + timedelta(minutes=int(REFRESH_TOKEN_TIME))
+
+    atk_data = {
+        "sub": form_data.username,
+        "exp": atk_time
+    }
+    access_token = jwt.encode(atk_data, SECRET_KEY, ALGORITHM)
+
+    rtk_data = {
+        "sub": form_data.username,
+        "exp": rtk_time
+    }
+    refresh_token = jwt.encode(rtk_data, SECRET_KEY, ALGORITHM)
+
+    return {"accessToken": access_token, "refreshToken": refresh_token}
+
+
+
+@router.post("/log-in", status_code=status.HTTP_200_OK)
 def logIn(id: str, password: str, db: Session = Depends(get_db)):
     exist_user = db.query(auth).filter(auth.id == id).first()
     if not (exist_user):
